@@ -1,18 +1,58 @@
-# fitnesstrackr
-an API for our new fitness empire, FitnessTrac.kr, using node, express, and postgresql
 
-## Getting Started
-Install Packages
+# Fitness Trackr - Backend
+This is the backend component of Fitness Trackr, a web application for tracking workouts and exercises. 
 
-    npm i
+It was developed as part of the Fullstack Academy curriculum. The backend is built using Node.js, Express, and PostgreSQL, and provides a RESTful API for the [frontend](https://github.com/mayamauchi/fitness-trackr-frontend) to communicate with.
 
-Initialize Database
 
-    createdb fitness-dev
-    
-Run Seed Script
-    
-    npm run seed:dev
+
+
+
+## Authors
+
+- [@mayamauchi](https://www.github.com/mayamauchi)
+- [@krlars27](https://github.com/krlars27)
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+git clone https://github.com/mayamauchi/FitnessTrackr-backend.git
+
+
+```
+
+Go to the project directory
+
+```bash
+cd FitnessTrackr-backend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+Run seed
+
+```bash
+  npm run seed:dev
+```
+
+This will start the app on port 3000 by default. You can change the port by setting the PORT environment variable.
+
+
+
+
 
 ## Automated Tests
 **NOTE:**  At first, there will be too many errors for the tests to even run.  Start by running the seed:dev script above, until it is working.
